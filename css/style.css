@@ -22,7 +22,6 @@ td {
     border: 2px solid gray;
     margin: 1px;
     cursor: pointer;
-    pointer-events: none;
 }
 
 #display {
@@ -33,4 +32,8 @@ td {
     letter-spacing: -7px;
     height: 20%;
     background-color: darkslategray;
+}
+
+.operation {
+    background-color: orange;
 }
