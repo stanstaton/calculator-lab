@@ -2,7 +2,8 @@
 
 /*--- app's state ---*/
 var displayText;
-var inputValue;
+var currentNum;
+var prevNum;
 var currentOperation;
 
 /*--- cached element references ---*/
@@ -16,11 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
 calculatorEl.addEventListener('click', handleClick);
 
 /*--- functions ---*/
+function initialize() {
+
+}
+function registerEventListeners() {
+
+}
 function handleClick(event) {
     
-}
-function initialize() { 
-
 }
 function add(num1, num2) { 
 

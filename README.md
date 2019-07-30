@@ -55,7 +55,8 @@ Example:
 
 /*--- app's state ---*/
 var displayText;
-var inputValue;
+var currentNum;
+var prevNum;
 var currentOperation;
 ...
 
@@ -64,12 +65,12 @@ const calculatorEl = document.querySelector(...)
 const displayEl = document.querySelector(...)
 
 /*--- event listeners ---*/
-document.addEventListener('DOMContentLoaded', () => { ... })
-calculatorEl.addEventListener('click', handleClick);
+document.addEventListener('DOMContentLoaded', (event) => { ... })
 
 /*--- functions ---*/
-function handleClick(event) { ... }
 function initialize() { ... }
+function registerEventListeners() { ... }
+function handleClick(event) { ... }
 function add(num1, num2) { ... }
 ...
 ```
