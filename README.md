@@ -77,7 +77,7 @@ function add(num1, num2) { ... }
 ## Hints:
 * The datatype of the "number" being entered is perhaps best stored as a string instead of a number. This will make it easier to add or remove additional digits. When it comes time to calculate, use `parseInt` or `parseFloat`.
 
-* You can get away with only adding a single event listener to the parent container. Event Delegation is the concept where the parent element listens for all the events that happen inside of it.  
+* You can get away with only adding a single event listener to the parent container. Event Delegation is the concept where the parent element listens for all the events that happen inside of it. Event bubbling is where click events on an element first happen on it, then 'bubble' up through the parent element, and all the way up it's other ancestors. 
 
 * This is a good opportunity to practice your CSS Grid chops. Otherwise, if you feel fine on Grid, a `<table>` for the calculator works out nicely. Look into the `colspan` attribute as a way to make a `<td>` span multiple columns. 
 
