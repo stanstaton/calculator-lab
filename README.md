@@ -89,6 +89,8 @@ function add(num1, num2) { ... }
     * Updates state, then...
     * Calls `render()`
 
+* A [Google Font](https://fonts.google.com) like Roboto will look really nice
+
 ## BONUSES:
 * Implement multiplication and division
 * Implement sign flipping to do math with negative nums
