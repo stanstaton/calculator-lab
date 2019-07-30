@@ -79,6 +79,8 @@ function add(num1, num2) { ... }
 
 * User interaction is what triggers Events to fire. The event listeners are where we'll call our functions from.
 
+* Aspire towards DRY code (Don't Repeat Yourself!)
+
 ## Hints:
 * The datatype of the "number" being entered is perhaps best stored as a string instead of a number. This will make it easier to add or remove additional digits. When it comes time to calculate, use `parseInt` or `parseFloat`.
 
