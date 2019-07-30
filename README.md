@@ -88,3 +88,14 @@ function add(num1, num2) { ... }
 * As the user interacts with the application, code the app such that it:
     * Updates state, then...
     * Calls `render()`
+
+## BONUSES:
+* Implement multiplication and division
+* Implement sign flipping to do math with negative nums
+* Implement decimals
+* Super bonus - implement multiple operation chaining for ongoing input
+
+### Avoid:
+* Don't use `eval()`
+
+
