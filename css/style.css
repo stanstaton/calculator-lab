@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#calculator {
+    width: 500px;
+    height: 700px;
+    margin: auto;        
+}
+
+table {
+    text-align: center;
+    font-size: 2.5em;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: lightgray;
+}
+
+td {
+    border: 2px solid gray;
+    margin: 1px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+#display {
+    text-align: right;
+    font-family: Courier;
+    font-size: 2.5em;
+    padding-right: 10px;
+    letter-spacing: -7px;
+    height: 20%;
+    background-color: darkslategray;
+}
