@@ -55,7 +55,8 @@ Example:
 
 /*--- app's state ---*/
 var displayText;
-var inputValue;
+var currentNum;
+var prevNum;
 var currentOperation;
 ...
 
