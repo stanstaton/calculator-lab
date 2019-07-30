@@ -52,21 +52,26 @@ When an operator is clicked, won't you have to "remember" the first number enter
 Example:
 ```
 /*--- constants ---*/
-const state = {};
 
 /*--- app's state ---*/
-var inputValue = 0;
-var currentOperation = null;
+var displayText;
+var inputValue;
+var currentOperation;
+...
 
 /*--- cached element references ---*/
 const calculatorEl = document.querySelector(...)
+const displayEl = document.querySelector(...)
 
 /*--- event listeners ---*/
-function onClick() { ... }
+document.addEventListener('DOMContentLoaded', () => { ... })
+calculatorEl.addEventListener('click', handleClick);
 
 /*--- functions ---*/
+function handleClick(event) { ... }
 function initialize() { ... }
 function add(num1, num2) { ... }
+...
 ```
 
 ## Key Principles:
@@ -79,7 +84,7 @@ function add(num1, num2) { ... }
 
 * You can get away with only adding a single event listener to the parent container. Event Delegation is the concept where the parent element listens for all the events that happen inside of it. Event bubbling is where click events on an element first happen on it, then 'bubble' up through the parent element, and all the way up it's other ancestors. 
 
-* This is a good opportunity to practice your CSS Grid chops. Otherwise, if you feel fine on Grid, a `<table>` for the calculator works out nicely. Look into the `colspan` attribute as a way to make a `<td>` span multiple columns. 
+* This is a good opportunity to practice your CSS Grid chops. However, a `<table>` for the calculator also works out nicely. Look into the `colspan` attribute as a way to make a `<td>` span multiple columns. 
 
 * Create a main `render` function that is responsible for rendering the state of the app to the DOM.
 
